@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "@apollo/server": "^5.4.0",
+    "apollo-server-express": "^3.13.0",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cloudinary": "^2.9.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^4.21.2",
+    "graphql": "^16.13.2",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "name": "comp3133-101543366-assignment1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This project is an Employee Management System backend that I developed using Node.js, \r Express, GraphQL, MongoDB Atlas, and Cloudinary. The system allows users to sign up \r and log in, and once authenticated, they can add employees, upload employee photos, \r view all employee records, search employees by ID, update employee information, \r delete employees, and filter employees by designation or department.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saritaraph/COMP3133_101543366_Assignment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saritaraph/COMP3133_101543366_Assignment1/issues"
+  },
+  "homepage": "https://github.com/saritaraph/COMP3133_101543366_Assignment1#readme"
+}
